@@ -96,22 +96,63 @@ The app should now be running at:
 
 ## 🚀 How to Contribute
 
-1. **Fork** the repo
-2. Create a **new branch**:
+1. **Fork** the repository
+2. **Clone** your fork:
+   ```bash
+   git clone https://github.com/<your-username>/Github-Username-Updater.git
+   cd Github-Username-Updater
+   ```
+3. **Create a new branch**:
    ```bash
    git checkout -b feature/your-feature-name
    ```
-3. **Make your changes**
-4. **Commit** your code:
+4. **Make your changes**
+5. **Stage and commit your changes**:
    ```bash
-   git commit -m "Add your message here"
+   git add .
+   git commit -m "feat: add your message here"
    ```
-5. **Push** to GitHub:
+6. **Push** to your forked GitHub repo:
    ```bash
    git push origin feature/your-feature-name
    ```
-6. Open a **Pull Request** and wait for review ✅
+7. **Open a Pull Request** on GitHub and wait for review ✅
 
+---
+
+## 🐛 Reporting Issues
+
+- Before creating a new issue, please [search the issues](../../issues) to avoid duplicates.
+- For bugs, provide steps to reproduce and screenshots if applicable.
+- For enhancement ideas or improvements, describe the use-case clearly.
+
+---
+
+## ✨ Feature Requests
+
+- If you have a feature in mind, feel free to open a [New Issue](../../issues/new).
+- Clearly explain the feature, why it's useful, and how it improves the tool.
+- Not all features may be accepted, but all ideas are appreciated.
+
+---
+
+## 🔧 Pull Requests
+
+- Pull Requests must be linked to an [open issue](../../issues).
+- First, **comment on the issue** asking to be assigned before starting work.
+- Always work on a new branch:
+  ```bash
+  git checkout -b fix/your-feature-name
+  ```
+- Follow best practices for commit messages. Example:
+  ```bash
+  git commit -m "fix: correct broken link in footer"
+  ```
+- Push your branch and open a **Pull Request**:
+  ```bash
+  git push origin fix/your-feature-name
+  ```
+- Open a **Pull Request** and wait for review ✅
 ---
 
 ## 🧪 Available Scripts
