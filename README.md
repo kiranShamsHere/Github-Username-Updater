@@ -1,13 +1,8 @@
-<!-- 
-<p align="center">
-  <img src="/static/assets/logo.png" alt="GitHub Username Updater Logo" height="96" />
--->
-
 <h1 align="center">GitHub Username Updater</h1>
-</p>
 
 <p align="center">
-  A simple tool to help you update your old GitHub username across your repositories effortlessly.
+  A simple tool to help you update your old GitHub username across your repositories effortlessly. <br />
+  🚧 This project is under construction and not fully deployed yet. Collaborations are open — feel free to contribute!
 </p>
 
 <p align="center">
@@ -34,91 +29,43 @@
 
 Have you ever changed your GitHub username and then worried about broken links, clone URLs, or outdated references across your repositories?
 
-**GitHub Username Updater** is a handy tool that finds and replaces your old GitHub username with your new oneâ€”across all your repositories with just a few clicks.  
+**GitHub Username Updater** is a handy tool that finds and replaces your old GitHub username with your new one — across all your repositories with just a few clicks.  
 It's fast, intuitive, secure, and helps maintain the integrity of your open-source projects.
 
 ---
 
 ## 💡 Features
 
-- 🔎 Automatically scan for old username references
-- 🔍 GitHub user search
-- ☁️ Hosted with Flask backend
-- 🔐 OAuth authentication with GitHub (secure)
-- 🌙 Dark mode support
-- 🖥️ Clean and responsive UI
-- ✅ Works across all devices
-- 📖 FAQ & contact section included
-- ⚡ Lightweight and beginner-friendly
+- 🔎 Automatically scan for old username references  
+- 🔍 GitHub user search  
+- ☁️ Hosted with Flask backend  
+- 🔐 OAuth authentication with GitHub (secure)  
+- 🌙 Dark mode support  
+- 🖥️ Clean and responsive UI  
+- ✅ Works across all devices  
+- 📖 FAQ & contact section included  
+- ⚡ Lightweight and beginner-friendly  
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Technology | Description                          |
-|------------|--------------------------------------|
-| **HTML**   | Page structure and markup            |
-| **CSS**    | Styling, animations, and responsiveness |
-| **JavaScript** | Dropdowns, toggles, and interactivity |
-| **Font Awesome** | Icon support                    |
-| **Flask**  | Lightweight Python web framework      |
-| **GitHub API** | Used to fetch repositories and user data |
-| **OAuth 2.0** | Secure GitHub authentication (planned) |
-
----
-
-## 📂 Project Structure
-
-```
-ðŸ“‚ static/
-â”‚  â”œâ”€â”€ style.css            # All CSS styles
-â”‚  â”œâ”€â”€ script.js            # Main frontend JS logic
-â”‚  â””â”€â”€ darkmode-toggle.js   # Theme toggler logic
-ðŸ“‚ templates/
-â”‚  â””â”€â”€ index.html           # Main page
-ðŸ“‚ app.py                   # Flask backend
-ðŸ“‚ utils.py (optional)      # Helper functions
-ðŸ“„ README.md                # This file
-```
-
----
-
-## ⚒️ Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/kiranShamsHere/Github-Username-Updater.git
-cd Github-Username-Updater
-```
-
-### 2. Set up a virtual environment (recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use venv\Scripts\activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the app
-
-```bash
-python app.py
-```
-
-App will start on `http://localhost:5000`
+| Technology         | Description                                      |
+|--------------------|--------------------------------------------------|
+| **HTML**           | Page structure and markup                        |
+| **CSS**            | Styling, animations, and responsiveness          |
+| **JavaScript**     | Dropdowns, toggles, and interactivity            |
+| **Font Awesome**   | Icon support                                     |
+| **Flask**          | Lightweight Python web framework                 |
+| **GitHub API**     | Used to fetch repositories and user data         |
+| **OAuth 2.0**      | Secure GitHub authentication *(planned)*         |
 
 ---
 
 ## 🙌 Contributing
 
-Contributions, issues, and feature requests are welcome!  
-Feel free to fork the repo and submit a pull request.
+Contributions are welcome!  
+Please adhere to the guidelines in the [CONTRIBUTING](CONTRIBUTING.md) file.
 
 ---
 
